@@ -2,5 +2,5 @@ read a;
 read b;
 (*if a and b are 0 
 then nothing happens*)
-if a!=0 then c:=c/a else
-	if b!=0 then c:=c/b else skip;
+if (a!=0) then c:=(c/a) else
+	if (b!=0) then c:=(c/b) else skip

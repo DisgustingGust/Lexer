@@ -1,5 +1,5 @@
 read x;
 read y;
 (*just sum of x and y*)
-sum:=x+y;
-write sum;
+sum:=(x+y);
+write sum
