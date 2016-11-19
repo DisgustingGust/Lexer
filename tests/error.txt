@@ -1,4 +1,0 @@
-read a1;
-read a2;
-read a3==;
-pr:=a1*a2*a3
