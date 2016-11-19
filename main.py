@@ -1,6 +1,5 @@
 #coding=utf8
 
-import sys
 from parser import *
 import ply.lex as lex
 
