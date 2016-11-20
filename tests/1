@@ -1,0 +1,4 @@
+if x == 0 then
+	skip
+else x := 1;
+write x

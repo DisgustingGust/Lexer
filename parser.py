@@ -132,6 +132,10 @@ def p_exp_number(p):
     '''exp : NUMBER'''
     p[0] = Node('N', [p[1]])
 
+def p_expression_notparenthesis(p):
+    '''exp : exp operation exp'''
+    p[0] = Node('E', [p[1], p[2], p[3]])
+
 def p_expression_parenthesis(p):
     '''exp : PARENTHESIS exp operation exp PARENTHESIS'''
     p[0] = Node('E', ['(', p[2], p[3], p[4],')'])
